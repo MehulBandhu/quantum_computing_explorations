@@ -18,7 +18,7 @@ A parameterised 2-qubit circuit trained to classify structured synthetic data wi
 pip install numpy scipy matplotlib qiskit qiskit-aer qiskit-ibm-runtime pylatexenc
 ```
 
-The hardware cells in the protein folding notebook require an IBM Quantum account (free at [quantum.ibm.com](https://quantum.ibm.com)). Run once before executing:
+The hardware cells in the protein folding notebook require an IBM Quantum account (free at [quantum.ibm.com](https://quantum.ibm.com)).
 ```python
 from qiskit_ibm_runtime import QiskitRuntimeService
 QiskitRuntimeService.save_account(channel="ibm_quantum_platform", token="", overwrite=True)
