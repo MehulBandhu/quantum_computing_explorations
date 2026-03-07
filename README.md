@@ -8,7 +8,7 @@ A couple of notebooks I wrote to get hands-on with encoding computational proble
 
 ![Protein fold comparison](3dfolds.png)
 
-VQE-optimised fold of the Zika virus NS3 helicase loop (LHPGAGK, 7 residues) on a 3D tetrahedral lattice using 10 qubits with Miyazawa-Jernigan contact energies. The dominant fold was preserved through hardware noise on IBM's ibm_fez (156 qubits), achieving 3.02 Å RMSD against the experimental crystal structure (PDB: 5gjb) — outperforming AlphaFold2 (3.53 Å) on the same fragment.
+VQE-optimised fold of the Zika virus NS3 helicase loop (LHPGAGK, 7 residues) on a 3D tetrahedral lattice using 10 qubits with Miyazawa-Jernigan contact energies. The dominant fold was preserved through hardware noise on IBM's ibm_fez (156 qubits), achieving 3.02 Å RMSD against the experimental crystal structure (PDB: 5gjb) - outperforming AlphaFold2 (3.53 Å) on the same fragment.
 
 ## Notebooks
 
