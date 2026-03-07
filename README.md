@@ -18,6 +18,7 @@ Folds a real peptide (Zika virus helicase P-loop, LHPGAGK) on a tetrahedral latt
 
 ### [Protein Folding as Energy Minimisation](protein_folding_energy.ipynb)
 
+![Simulator vs hardware](output.png)
 Protein folding cast as a ground state problem using the HP lattice model. Folding decisions are encoded as qubits and the Hamiltonian is built entirely from Pauli Z projectors expressing physical rules (reward H-H contacts, penalise collisions). No energies are precomputed; the operator structure encodes the physics. VQE recovers the optimal fold on a simulator with 99.6% ground state probability, and the same circuit run on IBM quantum hardware (ibm_marrakesh, 156 qubits) still hits 92.7% through real device noise. Includes noise analysis (KL divergence, entropy, shot budget scaling) and a comparison of classical vs quantum resource scaling.
 
 ### [Variational Quantum Classifier](variational_quantum_classifier.ipynb)
