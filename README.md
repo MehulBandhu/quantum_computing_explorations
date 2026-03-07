@@ -6,15 +6,15 @@ A couple of notebooks I wrote to get hands-on with encoding computational proble
 
 ### Zika virus helicase P-loop folded on IBM quantum hardware
 
-![Protein fold comparison](protein_fold_comparison.png)
+![Protein fold comparison](3dfolds.png)
 
 VQE-optimised fold of the Zika virus NS3 helicase loop (LHPGAGK, 7 residues) on a 3D tetrahedral lattice using 10 qubits with Miyazawa-Jernigan contact energies. The dominant fold was preserved through hardware noise on IBM's ibm_fez (156 qubits), achieving 3.02 Å RMSD against the experimental crystal structure (PDB: 5gjb) — outperforming AlphaFold2 (3.53 Å) on the same fragment.
 
 ## Notebooks
 
-### [Protein Folding on a 3D Tetrahedral Lattice](protein_folding_3d_tetrahedral.py)
+### [Protein Folding on a 3D Tetrahedral Lattice](protein_folding_3d.py)
 
-Folds a real peptide (Zika virus helicase P-loop, LHPGAGK) on a tetrahedral lattice using VQE. The Hamiltonian is built from Miyazawa-Jernigan pairwise contact energies via a Walsh-Hadamard decomposition into 1024 Pauli-Z terms on 10 qubits. VQE concentrates probability onto near-ground-state folds, and the optimised circuit is executed on IBM quantum hardware. The resulting fold is aligned to the experimental crystal structure (PDB: 5gjb) using Kabsch RMSD, achieving 3.02 Å — beating AlphaFold2's 3.53 Å on the same fragment.
+Folds a real peptide (Zika virus helicase P-loop, LHPGAGK) on a tetrahedral lattice using VQE. The Hamiltonian is built from Miyazawa-Jernigan pairwise contact energies via a Walsh-Hadamard decomposition into 1024 Pauli-Z terms on 10 qubits. VQE concentrates probability onto near-ground-state folds, and the optimised circuit is executed on IBM quantum hardware. The resulting fold is aligned to the experimental crystal structure (PDB: 5gjb) using Kabsch RMSD, achieving 3.02 Å - beating AlphaFold2's 3.53 Å on the same fragment.
 
 ### [Protein Folding as Energy Minimisation](protein_folding_energy.ipynb)
 
