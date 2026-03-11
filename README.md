@@ -6,7 +6,7 @@ A couple of notebooks I wrote to get hands-on with encoding computational proble
 
 ### Zika virus helicase P-loop folded on IBM quantum hardware
 
-![Protein fold comparison](3dfolds.png)
+![Protein fold comparison](3folds.png)
 
 VQE-optimised fold of the Zika virus NS3 helicase loop (LHPGAGK, 7 residues) on a 3D tetrahedral lattice using 10 qubits with Miyazawa-Jernigan contact energies. The dominant fold was preserved through hardware noise on IBM's ibm_fez (156 qubits), achieving 2.21 Å RMSD against the experimental crystal structure (PDB: 5gjb) - outperforming AlphaFold2 (3.53 Å) on the same fragment.
 
