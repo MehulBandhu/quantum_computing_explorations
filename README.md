@@ -1,6 +1,6 @@
 # quantum-computing-explorations
 
-A couple of notebooks I wrote to get hands-on with encoding computational problems into quantum systems. The goal was to take all the theoretical learning and actually implement things: build the Hamiltonians, run the variational loops, put them on real hardware, and see what comes out.
+A couple of notebooks I wrote to get hands-on with encoding computational problems into quantum systems. As part of my research course, I was tasked with understanding quantum simulation frameworks and quantum algorithms. After reading some key papers in this field and learning about how these systems behave at the gate level, and what problems could be solved - I implemented algorithms to simulate protein folding as a decision making problem and guiding the system towards minimizing energy. It's beautiful to think about systems this way, and now I can't stop thinking about all the possible problems that can be projected on to the quantum framework. 
 
 ## Results
 
